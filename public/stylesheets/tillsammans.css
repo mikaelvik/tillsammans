@@ -9,6 +9,12 @@ div#innerWrapper { width: 100%; height: 485px; padding: 0; }
 div#side { float: left; width: 335px; height: 485px; padding: 0; }
 div#content { margin-left: 340px; width: auto; height: 485px; padding: 0; }
 div#fullContent { float: left; width: auto; height:485px; padding: 0;} /* Fills entire innerWrapper (side + content) */
+/*
+div#outerWrapper { width: 100%; height: 485px; background-color: white; padding: 5px 5px;}
+div#innerWrapper { width: 100%; height: 485px; padding: 0;}
+div#side {float: left; width: 500px; height: 485px;}
+div#content {margin-left: 500px; width: auto; height: 485px; padding: 0; }
+*/
 div#map { height: 485px; width: auto; }
 div#loginOrUser { position:absolute; left: 1%; top: 20px; color: white;}
 div#loginOrUser img { float: left; border: 1px solid white; padding: 0; margin-right: 15px;}
@@ -50,11 +56,30 @@ body {
 	color: #261c02; 
 }
 
-input, textarea { 
+input { 
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 1em;
 	color: black;
 	border: 1px solid black;
+}
+
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: black;
+	background-color: black;
+	border: 1px solid #261c02;
+	height: 3em;
+	width: 28em;
+}
+
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: black;
+	border: 1px solid #261c02;
+	background-color: #0d0502;
+	width: 28em;
 }
 
 h1, h2, h3, h4 {
