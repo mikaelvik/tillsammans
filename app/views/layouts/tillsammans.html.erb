@@ -13,27 +13,28 @@
       <div id="inner">
         <div id="header">
           <a href="/"><img id="logo" src="/images/bekktillsammans.png" alt="Tillsammans" border="0"/></a>
-          <div id="loginOrUser">           
+          <div id="loginOrUser">
             <% if @user %>
               <%= render :partial => 'sessions/logged_in' %>
             <% else %>
-              <%= render :partial => 'sessions/new' %> 
+              <%= render :partial => 'sessions/new' %>
             <% end %>
           </div>
         </div>
         <div id="outerWrapper">
           <div id="innerWrapper">
-            <!-- div id="side" -->
             <div id="fullContent">
-              <%= render :partial => 'flex/main' %>
-            <!-- /div -->        
-            <!-- div id="content" -->
-              <%#= yield %>
-            <!-- /div -->
+              <%= yield %>
             </div>
+            <!-- div id="side">
+               <%#= render :partial => 'flex/main' %>
+            </div>
+            <div id="content">
+              <%#= yield %>
+            </div -->
           </div>
         </div>
-      </div>      
+      </div>
     </div>
   </body>
 </html>
