@@ -1,7 +1,6 @@
 <div id="loginDiv">
   <SCRIPT language='JavaScript' charset='utf-8'>
-    var x = tillsammans.fetchEvents();
-    alert(x);
+    document['tillsammans'].fetchEvents();
   </SCRIPT>
   <img src="http://nanna.bekk.no:4806/employees/<%= @user.bekk_id %>.jpeg" width="90" height="110" />
   <% remote_form_for :user, @user, :url => user_path(@user), :method => :put do |f| %>

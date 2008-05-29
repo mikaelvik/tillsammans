@@ -9,3 +9,4 @@ tmp/*
 nbproject
 .LCK*
 .project
+copier.sh
