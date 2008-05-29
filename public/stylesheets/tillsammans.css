@@ -21,7 +21,6 @@ div#content td { font-size: 0.8em; }
 div#content a {  color: #fff; /* color: #847363;*/ background-color: #1b0d00; font-size: 1em; padding: 1px;}
 div#content * { padding: 1px; } /* XXX: ugly hack to make some air in the content :) -oc */
 
-div#fullContent 
 div#fullContent { font-size: 1em; background: white; }
 div#fullContent td { font-size: 0.8em; }
 div#fullContent a {  color: #fff; /* color: #847363;*/ background-color: #1b0d00; font-size: 1em; padding: 1px;}
