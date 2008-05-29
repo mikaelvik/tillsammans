@@ -1,3 +1,7 @@
-<%= @gmap.to_html %>
-
-<div id="map">
+<div id="side">
+   <%= render :partial => 'flex/main' %>
+</div>
+<div id="content">
+  <%= @gmap.to_html %>
+  <div id="map"></div>
+</div>

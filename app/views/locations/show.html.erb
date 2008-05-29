@@ -1,38 +1,40 @@
-<p>
-  <b>Name:</b>
-  <%=h @location.name %>
-</p>
+<div id="fullContent">
+  <p>
+    <b>Name:</b>
+    <%=h @location.name %>
+  </p>
 
-<p>
-  <b>Lat:</b>
-  <%=h @location.lat %>
-</p>
+  <p>
+    <b>Lat:</b>
+    <%=h @location.lat %>
+  </p>
 
-<p>
-  <b>Lng:</b>
-  <%=h @location.lng %>
-</p>
+  <p>
+    <b>Lng:</b>
+    <%=h @location.lng %>
+  </p>
 
-<p>
-  <b>Street:</b>
-  <%=h @location.street %>
-</p>
+  <p>
+    <b>Street:</b>
+    <%=h @location.street %>
+  </p>
 
-<p>
-  <b>Zip:</b>
-  <%=h @location.zip %>
-</p>
+  <p>
+    <b>Zip:</b>
+    <%=h @location.zip %>
+  </p>
 
-<p>
-  <b>City:</b>
-  <%=h @location.city %>
-</p>
+  <p>
+    <b>City:</b>
+    <%=h @location.city %>
+  </p>
 
-<p>
-  <b>Description:</b>
-  <%=h @location.description %>
-</p>
+  <p>
+    <b>Description:</b>
+    <%=h @location.description %>
+  </p>
 
 
-<%= link_to 'Edit', edit_location_path(@location) %> |
-<%= link_to 'Back', locations_path %>
+  <%= link_to 'Edit', edit_location_path(@location) %> |
+  <%= link_to 'Back', locations_path %>
+</div>

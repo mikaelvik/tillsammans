@@ -1,28 +1,30 @@
-<p>
-  <b>Name:</b>
-  <%=h @map.name %>
-</p>
+<div id="fullContent">
+  <p>
+    <b>Name:</b>
+    <%=h @map.name %>
+  </p>
 
-<p>
-  <b>Description:</b>
-  <%=h @map.description %>
-</p>
+  <p>
+    <b>Description:</b>
+    <%=h @map.description %>
+  </p>
 
-<p>
-  <b>Lat:</b>
-  <%=h @map.lat %>
-</p>
+  <p>
+    <b>Lat:</b>
+    <%=h @map.lat %>
+  </p>
 
-<p>
-  <b>Lng:</b>
-  <%=h @map.lng %>
-</p>
+  <p>
+    <b>Lng:</b>
+    <%=h @map.lng %>
+  </p>
 
-<p>
-  <b>Zoom:</b>
-  <%=h @map.zoom %>
-</p>
+  <p>
+    <b>Zoom:</b>
+    <%=h @map.zoom %>
+  </p>
 
 
-<%= link_to 'Edit', edit_map_path(@map) %> |
-<%= link_to 'Back', maps_path %>
+  <%= link_to 'Edit', edit_map_path(@map) %> |
+  <%= link_to 'Back', maps_path %>
+</div>
